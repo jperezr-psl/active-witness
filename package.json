@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  },
+  "name": "active-witness",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JuanPerez",
+  "license": "MIT"
+}
