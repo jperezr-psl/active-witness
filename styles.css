@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* create styles comand */
+/* npx tailwindcss build styles.css -o css/styles.css */
