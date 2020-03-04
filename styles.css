@@ -2,5 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face { font-family: Poppins; src: url('./assets/Poppins-Regular.otf'); }
+
+body {
+  font-family: Poppins, sans-serif;
+}
+.title {
+  color: #7C7F82;
+}
+.active {
+  background-color: #EBF3FF;
+  border-color: #286ADD;
+  color: #286ADD;
+}
+
+
 /* create styles comand */
 /* npx tailwindcss build styles.css -o css/styles.css */
