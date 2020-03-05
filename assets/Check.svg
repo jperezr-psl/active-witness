@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/Check</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,0 C12.4182944,0 16,3.5817431 16,8 C16,12.4182569 12.4182569,16 8,16 C3.5817431,16 0,12.4182569 0,8 C0,3.5817431 3.5817431,0 8,0 Z M8,2 C4.68629808,2 2,4.68629808 2,8 C2,11.3137019 4.68629808,14 8,14 C11.3137363,14 14,11.3137363 14,8 C13.9959478,4.68794643 11.3120192,2.00401786 8,2 Z M10.7909489,5 L12,6.23599406 L7.06965918,11 L4,7.94915876 L5.04414707,6.90871922 L6.99116323,8.85656401 L10.7909489,5 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/Check" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tick" transform="translate(4.000000, 4.000000)">
+            <g id="UI/Color/Flat/Icon-Color">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#2BBF10" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)" fill="#2BBF10" id="Base">
+                    <g transform="translate(-5.000000, -5.000000)">
+                        <rect x="0" y="0" width="25" height="25"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

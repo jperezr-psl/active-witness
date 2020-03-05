@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/Disable</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,0 C3.58885553,0 0,3.58885553 0,8 C0,12.4111445 3.58885553,16 8,16 C12.4111445,16 16,12.4111445 16,8 C16,3.58885553 12.4111134,0 8,0 Z M1.99998448,8 C1.99998448,6.70617353 2.41575309,5.50995042 3.11486628,4.52892023 L11.4710487,12.8851027 C10.4900185,13.5841848 9.29379544,13.9999845 7.99996897,13.9999845 C4.69141665,13.9999845 1.99998448,11.3085834 1.99998448,8 Z M12.8851027,11.4710798 L4.5288892,3.11486628 C5.50991939,2.41578412 6.70614249,1.99998448 7.99996897,1.99998448 C11.3085523,1.99998448 13.9999534,4.69138561 13.9999534,7.99996897 C13.9999534,9.29382647 13.5841848,10.4900496 12.8851027,11.4710798 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/Disable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pencil" transform="translate(4.000000, 4.000000)">
+            <g id="UI/Color/Flat/Icon-Color">
+                <g id="002-disabled-copy-8">
+                    <g id="UI/Color/Flat/Icon-Color">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#A8AAB7" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)" fill="#A8AAB7" id="Base">
+                            <g transform="translate(-5.000000, -5.000000)">
+                                <rect x="0" y="0" width="25" height="25"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
