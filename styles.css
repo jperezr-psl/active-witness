@@ -7,9 +7,6 @@
 body {
   font-family: Poppins, sans-serif;
 }
-.title {
-  color: #7C7F82;
-}
 .active {
   background-color: #EBF3FF;
   border-color: #286ADD;
@@ -17,7 +14,6 @@ body {
   padding-right: 24px;
   padding-left: 16px;
 }
-
 
 /* create styles comand */
 /* npx tailwindcss build styles.css -o css/styles.css */
