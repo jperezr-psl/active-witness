@@ -11,8 +11,8 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="Mask" fill="#333333" xlink:href="#path-1"></use>
-            <g id="↳🎨icon-color" mask="url(#mask-2)" fill="#333333">
+            <use id="Mask" fill="#4B74FF" xlink:href="#path-1"></use>
+            <g id="↳🎨icon-color" mask="url(#mask-2)" fill="#4B74FF">
                 <g transform="translate(-38.000000, -32.000000)" id="Icon-Shade">
                     <rect x="0" y="0" width="72" height="72"></rect>
                 </g>
