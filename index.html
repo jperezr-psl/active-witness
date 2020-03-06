@@ -43,37 +43,30 @@
               <p class="text-base text-gray-700">Mollie Jennings</p>
               <p class="text-xs text-gray-500">Administrator</p>
             </div>
-            <div class="pr-4 border-r border-gray-400 flex justify-center items-center">
+            <div class="pr-4 border-r-2 border-gray-300 flex justify-center items-center">
               <a href="#"><img class="h-6 w-6 inline-block" src="./assets/caret-down.svg" alt="icon"></a>
             </div>
 
-            <div class="mx-10 text-center text-gray-500 hover:text-gray-600">
+            <div class="mx-10 text-center text-gray-500 hover:opacity-75 cursor-pointer">
               <a href="#">
-                <svg class="h-5 w-5 fill-current inline-block transform -rotate-90" xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512.001 512.001">
-                  <path
-                    d="M505.651 243.741l-54.782-38.622c-9.916-6.99-23.644.116-23.644 12.26v77.242c0 12.194 13.757 19.227 23.643 12.26l54.782-38.621c8.479-5.978 8.456-18.556.001-24.519z" />
-                  <path
-                    d="M430.46 352.315c-7.169-4.146-16.346-1.698-20.495 5.474-35.236 60.915-101.1 101.807-176.367 101.807C121.334 459.597 30 368.263 30 256.001S121.334 52.404 233.597 52.404c75.317 0 141.153 40.932 176.366 101.806 4.148 7.172 13.327 9.619 20.495 5.474 7.171-4.148 9.621-13.324 5.474-20.495C395.408 69.133 319.721 22.404 233.597 22.404 104.487 22.404 0 126.88 0 256.001c0 129.11 104.476 233.596 233.597 233.596 86.161 0 161.829-46.762 202.337-116.787 4.147-7.171 1.697-16.346-5.474-20.495z" />
-                  <path d="M164.192 241.001c-8.284 0-15 6.715-15 15 0 8.284 6.716 15 15 15h233.031v-30H164.192z" />
-                </svg>
+                <img class="h-6 w-6 mb-1 mx-auto inline-block" src="./assets/logout.svg" alt="icon">
                 <p class="text-xs mt-1">Logout</p>
               </a>
             </div>
           </div>
         </div>
-        <div class="px-6 pt-6 pb-2">
+        <div class="px-6 py-6">
           <p class="text-xl text-gray-700"> SENSORS </p>
         </div>
       </div>
 
-      <div class="row-span-2 row-start-2 row-end-6 col-start-2 col-end-7 bg-white rounded-sm shadow px-6 pt-3 mx-6 mt-8">
+      <div class="row-span-2 row-start-2 row-end-6 col-start-2 col-end-7 bg-white rounded-sm 
+        shadow px-6 py-3 mx-6 mt-8 overflow-y-auto">
         <table class="table-auto w-full">
           <thead>
             <tr>
               <th class="text-gray-500 px-2 py-3 text-left text-base font-normal">Serial number
-                <a href="#"><img class="h-6 w-6 mb-1 mx-auto inline-block" src="./assets/ArrowsUp.svg"
-                    alt="icon"></a>
+                <a href="#"><img class="h-6 w-6 mb-1 mx-auto inline-block" src="./assets/ArrowsUp.svg" alt="icon"></a>
                 <input autocomplete="off" class="text-sm block w-full border border-gray-400 rounded-sm py-1 px-3 my-2"
                   type="search" name="search">
               </th>
@@ -82,8 +75,7 @@
                   type="search" name="search">
               </th>
               <th class="text-gray-500 px-2 py-3 text-left text-base font-normal">Zone
-                <a href="#"><img class="h-6 w-6 mb-1 mx-auto inline-block" src="./assets/ArrowsUp.svg"
-                    alt="icon"></a>
+                <a href="#"><img class="h-6 w-6 mb-1 mx-auto inline-block" src="./assets/ArrowsUp.svg" alt="icon"></a>
                 <input autocomplete="off" class="text-sm block w-full border border-gray-400 rounded-sm py-1 px-3 my-2"
                   type="search" name="search">
               </th>
@@ -193,8 +185,37 @@
       </div>
 
       <div class="row-span-3 row-start-6 row-end-7 col-start-2 col-end-7 mx-6">
-        <div class="p-4 bg-blue-400">
-          psss
+        <div class="flex w-full justify-between">
+          <div class="py-6">
+            <p class="mr-4 inline text-xs text-gray-700">View</p>
+            <div class="inline-block relative">
+              <select class="outline-none text-sm appearance-none w-full bg-white px-4 py-2 pr-8 rounded text-gray-500">
+                <option>10 records</option>
+                <option>20 records</option>
+                <option>30 records</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <img src="./assets/Down.svg">
+              </div>
+            </div>
+          </div>
+          <div class="py-6">
+              <ul class="flex">
+                <li class="mr-2"><a class="rounded hover:opacity-75 block text-gray-600 bg-white px-1 py-1 opacity-50 cursor-not-allowed" href="#">
+                    <img class="h-6 w-6 mx-auto transform rotate-180" src="./assets/Left.svg" alt="icon">
+                  </a></li>
+                <li class="mr-1"><a class="rounded hover:opacity-75 block text-white bg-blue-600 px-3 py-1" href="#">1</a></li>
+                <li class="mr-1"><a class="rounded hover:opacity-75 block text-gray-600 bg-white px-3 py-1" href="#">2</a></li>
+                <li class="mr-1"><a class="rounded hover:opacity-75 block text-gray-600 bg-white px-3 py-1" href="#">3</a></li>
+                <li class="mr-1"><a class="block px-1 py-1" href="#">
+                    <img class="h-6 w-6 mx-auto transform -rotate-90" src="./assets/Dots.svg" alt="icon">
+                  </a></li>
+                <li class="mr-2"><a class="rounded hover:opacity-75 block text-gray-600 bg-white px-3 py-1" href="#">16</a></li>
+                <li><a class="rounded hover:opacity-75 block text-gray-600 bg-white px-1 py-1" href="#">
+                    <img class="h-6 w-6 mx-auto" src="./assets/Right.svg" alt="icon">
+                  </a></li>
+              </ul>
+          </div>
         </div>
       </div>
     </div>
